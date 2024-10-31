@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.post-loop-ajax-use-default-css {
+    position: relative;
+}
+.post-loop-ajax-use-default-css:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.post-loop-ajax-use-default-css .post-loop-ajax-loading-cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(100,100,100,0.0);
+    background-image: url(../img/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+/* Navigation Pagination */
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination {
+    clear: both;
+}
+.post-loop-ajax-use-default-css .page-link span { padding: 6px; }
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination, .page-link { text-align:center; margin: 0 0 10px; font-size: 13px; }
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination a, .post-loop-ajax-use-default-css .page-link a {
+    font-weight: normal;
+    padding:6px 10px;
+    line-height: 50px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background: #fff;
+    margin: 3px;
+    color: #333;
+    text-decoration: none;
+}
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination a:hover, .post-loop-ajax-use-default-css .page-link a:hover {
+    background: #eee;
+}
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination a.prev, .post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination a.next, .post-loop-ajax-use-default-css .page-link .post-loop-ajax-use-default-css a.prev, .post-loop-ajax-use-default-css .page-link a.next { font-weight: normal; padding:6px 10px; line-height: 50px; border: none; background: #fff;}
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination a.current, .post-loop-ajax-use-default-css .page-link a.current { padding: 5px 9px; color: #555; font-weight:bold;  border: 2px solid #555; background: #fff;}
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination span.pages, .post-loop-ajax-use-default-css .page-link span.pages { margin-right: 10px; display: none; }
+.post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination .alignleft, .post-loop-ajax-use-default-css div.post-loop-ajax-navigation.post-loop-ajax-pagination .alignright, .post-loop-ajax-use-default-css .page-link .alignleft, .post-loop-ajax-use-default-css .page-link .alignright { margin: 0; }
+
+/* excerpt more link */
+
+.post-loop-ajax-more {
+    /* display: inline-block; */
+    display: table;
+    clear: both;
+    background-color: #595757;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    margin-top: 4px;
+}
+
+.post-loop-ajax-more:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive Design, Navigation Pagination, Type: Multi */
+
+/* Broader than */
+@media screen and (min-width: 769px) {
+    div.post-loop-ajax-pagination-normal { display: block; }
+    div.post-loop-ajax-pagination-lite { display: none; }
+    div.post-loop-ajax-pagination-prev-next-only { display: none; }
+} /* Broader than */
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    div.post-loop-ajax-pagination-normal { display: none; }
+    div.post-loop-ajax-pagination-lite { display: block; }
+    div.post-loop-ajax-pagination-prev-next-only { display: none; }
+} /* Tabled Portrait */
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+    div.post-loop-ajax-pagination-normal { display: none; }
+    div.post-loop-ajax-pagination-lite { display: none; }
+    div.post-loop-ajax-pagination-prev-next-only { display: block; }
+} /* All Mobile Sizes (devices and browser) */
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 480px) {
+    div.post-loop-ajax-pagination-normal { display: none; }
+    div.post-loop-ajax-pagination-lite { display: none; }
+    div.post-loop-ajax-pagination-prev-next-only { display: block; }
+} /* All Mobile Sizes (devices and browser) */
+

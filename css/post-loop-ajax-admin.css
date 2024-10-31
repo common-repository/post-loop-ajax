@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+div.post-loop-ajax-widget-settings {
+    margin: 0 0 4px 0;
+}
+
+div.post-loop-ajax-widget-settings .w100, textarea {
+    width: 100%;
+}
+
+div.post-loop-ajax-widget-settings .w80 {
+    width: 80%;
+}
+
+div.post-loop-ajax-widget-settings .w30 {
+    width: 30%;
+}
+
+div.post-loop-ajax-widget-settings input[readonly] {
+    background: #eee;
+    border: 1px solid #aaa;
+}
+
+/* Page Builder by SiteOrigin used 100001 */
+.ui-autocomplete {
+    z-index: 100008 !important;
+}
+
+
+/* welcom panel */
+
+.welcome-panel p.message {
+    line-height: 1.4em;
+    margin-right: 25px;
+}
+
+.welcome-panel-close {
+    z-index: 2;
+}
+
+.support-link {
+    float: right;
+    margin-right: 4px;
+}
+
+#welcome-panel {
+    clear: both;
+    padding-top: 10px;
+}
+.welcome-panel h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#welcome-panel.welcome-panel .welcome-panel-close.button:before {
+    content: "";
+}
+
+.welcome-panel-column-one {
+    margin-right: 10%;
+}
+
+
+/* button, http://css3buttongenerator.com/ */
+
+.btn-blue {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #3498db;
+  padding: 8px 20px 8px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.btn-green {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #1cc71c;
+  padding: 8px 20px 8px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background: #3fcc67;
+  text-decoration: none;
+}
+
+.btn-red {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #e00d0d;
+  padding: 8px 20px 8px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background: #f03946;
+  text-decoration: none;
+}
+

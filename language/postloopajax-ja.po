@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Loop Ajax\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 14:40+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:6
+msgid "Plugin Options"
+msgstr "プラグイン オプション"
+
+#: admin.php:6
+msgid "Post Loop Ajax"
+msgstr "Post Loop Ajax"
+
+#: admin.php:67 post_loop_ajax.php:375
+msgid "Content not found."
+msgstr "記事が見つかりませんでした。"
+
+#: admin.php:68 post_loop_ajax.php:376
+msgid "Page"
+msgstr "ページ"
+
+#: admin.php:69 post_loop_ajax.php:377
+msgid "Posted by"
+msgstr "投稿:"
+
+#: admin.php:70 post_loop_ajax.php:378
+msgid "Category"
+msgstr "カテゴリー"
+
+#: admin.php:71 post_loop_ajax.php:379
+msgid "posts"
+msgstr "の投稿"
+
+#: admin.php:72 post_loop_ajax.php:380
+msgid "Not Found"
+msgstr "見つかりませんでした"
+
+#: admin.php:370
+msgid "POST"
+msgstr "投稿"
+
+#: admin.php:376
+msgid "POST SCROLL"
+msgstr "投稿・スクロール"
+
+#: admin.php:382
+msgid "EXCERPT"
+msgstr "抜粋"
+
+#: admin.php:388
+msgid "IMAGE SLIDER"
+msgstr "イメージ スライダー"
+
+#: admin.php:394
+msgid "IMAGE SLIDER OBJECT-FIT"
+msgstr "イメージ スライダー OBJECT-FIT"
+
+#: admin.php:415
+msgid "Can't update, template name is different."
+msgstr "名前が異なる為、更新できません。"
+
+#: admin.php:419
+msgid "Can't update, template is empty."
+msgstr "テンプレートが空です。更新できません。"
+
+#: admin.php:427
+msgid "Updated."
+msgstr "更新しました。"
+
+#: admin.php:436
+msgid "Can't add, template name was exists."
+msgstr "既に使用されている名前の為、追加出来ません。"
+
+#: admin.php:440
+msgid "Can't add, template is empty."
+msgstr "テンプレートが空です。追加できません。"
+
+#: admin.php:448
+msgid "Added."
+msgstr "追加しました。"
+
+#: admin.php:457
+msgid "Can't delete, template name was not exists."
+msgstr "指定されたテンプレート名は存在しません。削除できません。"
+
+#: admin.php:466
+msgid "Deleted."
+msgstr "削除しました。"
+
+#: admin.php:477
+msgid "Post Loop Ajax Widget Templates"
+msgstr "Post Loop Ajax ウイジェット テンプレート"
+
+#: admin.php:477 post_loop_ajax.php:77
+msgid "donate"
+msgstr "寄付"
+
+#: admin.php:498
+msgid "Template Name"
+msgstr "テンプレート名"
+
+#: admin.php:507
+msgid "Delete"
+msgstr "削除"
+
+#: admin.php:508
+msgid "Add New"
+msgstr "新規追加"
+
+#: admin.php:509
+msgid "Update"
+msgstr "更新"
+
+#: admin.php:510 post_loop_ajax.php:573
+msgid "see"
+msgstr "参照"
+
+#: post_loop_ajax.php:351 post_loop_ajax.php:427 get_contents.php:256
+msgid "Use this:"
+msgstr "これを使う:"
+
+#: post_loop_ajax.php:427
+msgid "F jS, Y"
+msgstr "Y年m月d日"
+
+#: post_loop_ajax.php:427
+msgid "Read More"
+msgstr "全文を読む"
+
+#: post_loop_ajax.php:443
+msgid "nothing"
+msgstr "無し"
+
+#: post_loop_ajax.php:443
+msgid "normal"
+msgstr "標準"
+
+#: post_loop_ajax.php:443
+msgid "lite"
+msgstr "ライト"
+
+#: post_loop_ajax.php:443
+msgid "prev and next only"
+msgstr "進む・戻るのみ"
+
+#: post_loop_ajax.php:443
+msgid "full"
+msgstr "全て"
+
+#: post_loop_ajax.php:443
+msgid "multi"
+msgstr "マルチ"
+
+#: post_loop_ajax.php:448
+msgid "system"
+msgstr "システム"
+
+#: post_loop_ajax.php:452
+msgid "unique id"
+msgstr "固有の ID"
+
+#: post_loop_ajax.php:457
+msgid "remember page number until cookie expires"
+msgstr "ページ番号を記憶する日数"
+
+#: post_loop_ajax.php:457
+msgid "days"
+msgstr "日"
+
+#: post_loop_ajax.php:459
+msgid "remove the shortcode when not work"
+msgstr "動作しなかったショートコードタグを取り除く"
+
+#: post_loop_ajax.php:465
+msgid "Title:"
+msgstr "題名:"
+
+#: post_loop_ajax.php:468
+msgid "put before and after widget html tag"
+msgstr "ウィジット前後のタグを出力"
+
+#: post_loop_ajax.php:471
+msgid "need reload page"
+msgstr "ページの再読み込みが必要"
+
+#: post_loop_ajax.php:474
+msgid "scroll to content top after reloaded"
+msgstr "ページを再読み込みした後、記事の先頭へスクロールする"
+
+#: post_loop_ajax.php:478
+msgid "see: default css"
+msgstr "標準の css を参照"
+
+#: post_loop_ajax.php:481
+msgid "display posts"
+msgstr "表示する記事"
+
+#: post_loop_ajax.php:483
+msgid "post type name, separated by comma"
+msgstr "ポストタイプ名、コンマで区切る"
+
+#: post_loop_ajax.php:484
+msgid "category name, separated by comma"
+msgstr "カテゴリー名、コンマで区切る"
+
+#: post_loop_ajax.php:485
+msgid "without category name, separated by comma"
+msgstr "表示から除くカテゴリー名、コンマで区切る"
+
+#: post_loop_ajax.php:486
+msgid "additional"
+msgstr "追加設定"
+
+#: post_loop_ajax.php:488
+msgid "to result in (query after assembly)"
+msgstr "上記の結果 (組立後のクエリー)"
+
+#: post_loop_ajax.php:490
+msgid "enter query code, json format. it is prioritize than above."
+msgstr ""
+"JSON フォーマットでクエリを入力して下さい。これは上記の設定より優先されます。"
+
+#: post_loop_ajax.php:493
+msgid "query code format error."
+msgstr "クエリーコードに問題が有ります。"
+
+#: post_loop_ajax.php:500
+msgid "posts per page"
+msgstr "ページ当りの投稿数"
+
+#: post_loop_ajax.php:504
+msgid "excerpt char length"
+msgstr "抜粋の文字数"
+
+#: post_loop_ajax.php:505
+msgid "excerpt ellipsis"
+msgstr "抜粋の省略記号"
+
+#: post_loop_ajax.php:506
+msgid "excerpt more"
+msgstr "抜粋のもっと表示文字"
+
+#: post_loop_ajax.php:510
+msgid "date time format"
+msgstr "日付と時間の書式"
+
+#: post_loop_ajax.php:514
+msgid "pagination type (mult: for responsive)"
+msgstr "ページ送りのタイプ (マルチ: レスポンシブ)"
+
+#: post_loop_ajax.php:515
+msgid "pagination previous string"
+msgstr "ページ送りの戻る文字"
+
+#: post_loop_ajax.php:516
+msgid "pagination next string"
+msgstr "ページ送りの次へ文字"
+
+#: post_loop_ajax.php:518
+msgid "hide prev and next button"
+msgstr "進む・戻るボタンを非表示にする"
+
+#: post_loop_ajax.php:522
+msgid ""
+"scroll to content top after rewrite content by ajax, without while loop "
+"enabled."
+msgstr ""
+"非同期で記事を書き換えた後、記事の先頭へスクロールする、ループしている間を除"
+"いて。"
+
+#: post_loop_ajax.php:523
+msgid "scroll speed (-1: disabled)"
+msgstr "スクロール速度 (-1: 無効)"
+
+#: post_loop_ajax.php:523 post_loop_ajax.php:531
+msgid "msec"
+msgstr "ミリ秒"
+
+#: post_loop_ajax.php:524
+msgid "scroll offset top"
+msgstr "スクロール オフセット トップ"
+
+#: post_loop_ajax.php:525
+msgid "don't scroll if scroll position less than this margin"
+msgstr "スクロール位置がこのマージンより小さい場合はスクロールしない"
+
+#: post_loop_ajax.php:529
+msgid "auto loop contents."
+msgstr "自動コンテンツ ループ"
+
+#: post_loop_ajax.php:530
+msgid "loop interval time (0: disabled)"
+msgstr "ループの間隔 (0: 無効)"
+
+#: post_loop_ajax.php:530
+msgid "sec"
+msgstr "秒"
+
+#: post_loop_ajax.php:531
+msgid "time until changed contents"
+msgstr "コンテンツを変更し終わるまでの時間"
+
+#: post_loop_ajax.php:533
+msgid "page at random"
+msgstr "ページをランダムに表示"
+
+#: post_loop_ajax.php:537
+msgid "effects"
+msgstr "効果"
+
+#: post_loop_ajax.php:541
+msgid "don't display loading image."
+msgstr "ローディング画像非表示"
+
+#: post_loop_ajax.php:545
+msgid "front"
+msgstr "始め"
+
+#: post_loop_ajax.php:556
+msgid "end"
+msgstr "終わり"
+
+#: post_loop_ajax.php:569
+msgid "template"
+msgstr "テンプレート"
+
+#: post_loop_ajax.php:569
+msgid "edit template"
+msgstr "テンプレートの編集"
+
+#: pagination.php:67
+msgid "&laquo; Previous Page"
+msgstr ""
+
+#: pagination.php:71
+msgid "Next Page &raquo;"
+msgstr ""
+
+#~ msgid "default"
+#~ msgstr "初期値"
+
+#~ msgid "scroll offset top margin"
+#~ msgstr "スクロール オフセット トップ マージン"
+
+#~ msgid "fade time"
+#~ msgstr "フェード時間"
+
+#~ msgid "disabled"
+#~ msgstr "無効"
+
+#~ msgid "article"
+#~ msgstr "記事"
+
+#~ msgid "category slug or wp-query"
+#~ msgstr "カテゴリースラッグまたは WP クエリー"
